@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity"
+    android:background="@drawable/img_1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="200sp"></TextView>
+    <EditText
+        android:id="@+id/editTextUserNameInLogin"
+        android:hint="   Tài khoản"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#85FF5722"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/editTextPasswordInLogin"
+        android:hint="   Mật khẩu"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#7EFF5722"
+        >
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnLoginInLogin"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF5722"
+            android:layout_marginRight="30dp"
+            android:text="Đăng nhập"
+            >
+        </Button>
+        <Button
+            android:id="@+id/btnRegisterInLogin"
+            android:backgroundTint="#00BCD4"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="đăng ký"
+            >
+        </Button>
+    </LinearLayout>
+</LinearLayout>

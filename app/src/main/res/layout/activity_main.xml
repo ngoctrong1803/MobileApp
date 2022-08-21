@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+ <androidx.drawerlayout.widget.DrawerLayout
+     android:id="@+id/drawerLayoutTrangchu"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+         <androidx.appcompat.widget.Toolbar
+             android:id="@+id/toolbarTrangchu"
+             app:title="Trang chủ"
+             android:background="#28abe3"
+             android:layout_width="match_parent"
+             android:layout_height="?attr/actionBarSize">
+         </androidx.appcompat.widget.Toolbar>
+         <ViewFlipper
+             android:id="@+id/viewFlipperTrangchu"
+             android:layout_width="match_parent"
+             android:layout_height="200dp">
+         </ViewFlipper>
+         <LinearLayout
+             android:orientation="vertical"
+             android:background="#e4f5fc"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+             <TextView
+                 android:layout_marginTop="5dp"
+                 android:textColor="#d33332"
+                 android:textSize="20dp"
+                 android:text="Sản phẩm mới nhất"
+                 android:textStyle="bold"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+             </TextView>
+
+             <androidx.recyclerview.widget.RecyclerView
+                 android:id="@+id/recyclerViewTrangchu"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+             </androidx.recyclerview.widget.RecyclerView>
+         </LinearLayout>
+     </LinearLayout>
+     <com.google.android.material.navigation.NavigationView
+         android:id="@+id/navigationViewTrangchu"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_gravity="start">
+        <ListView
+            android:id="@+id/listviewTrangchu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+
+     </com.google.android.material.navigation.NavigationView>
+ </androidx.drawerlayout.widget.DrawerLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

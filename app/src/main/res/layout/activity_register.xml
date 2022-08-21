@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.RegisterActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ĐĂNG KÝ"
+    android:textColor="#00BCD4"
+    android:textStyle="bold"
+    android:textSize="30dp"
+    android:gravity="center"
+    android:layout_marginTop="70dp"
+    ></TextView>
+    <EditText
+        android:id="@+id/editTextUserNameInRegister"
+        android:hint="   Tài khoản"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#8500BCD4"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/editTextPasswordInRegister"
+        android:hint="   Mật khẩu"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#8500BCD4"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/editTextConfirmPasswordInRegister"
+        android:hint="   Xác nhận mật khẩu"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#8500BCD4"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/editTextFullNameInRegister"
+        android:hint="   Họ và tên"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#8500BCD4"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/editTextAddressInRegister"
+        android:hint="   Địa chỉ"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#8500BCD4"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/editTextPhoneInRegister"
+        android:hint="   Số điện thoại"
+        android:textSize="20dp"
+        android:inputType="phone"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#8500BCD4"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/editTextEmailInRegister"
+        android:hint="   Email"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#8500BCD4"
+        >
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnRegisterInRegister"
+            android:backgroundTint="#00BCD4"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:text="đăng ký"
+            >
+        </Button>
+        <Button
+            android:id="@+id/btnLoginInRegister"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF5722"
+            android:text="Đăng nhập"
+            >
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

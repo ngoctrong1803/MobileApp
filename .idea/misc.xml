@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.146875" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/drawable/boder.xml" value="0.26875" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26875" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/drawable/spinner.xml" value="0.2" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_book_content.xml" value="0.13072916666666667" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_cart.xml" value="0.20652173913043478" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_contact.xml" value="0.22192028985507245" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_information.xml" value="0.2269021739130435" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_list_order.xml" value="0.2526041666666667" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_list_order_detail.xml" value="0.13072916666666667" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_list_product.xml" value="0.2" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_login.xml" value="0.2526041666666667" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_product_detail.xml" value="0.20652173913043478" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_register.xml" value="0.13072916666666667" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_thong_tin.xml" value="0.2269021739130435" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_truyen_tranh.xml" value="0.22192028985507245" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/activity_user.xml" value="0.21331521739130435" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/cart_listview.xml" value="0.2" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/category_listview.xml" value="0.12284701114488349" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/newproduct.xml" value="0.264" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/order_detail_listview.xml" value="0.2" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/order_listview.xml" value="0.2526041666666667" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/product_listview.xml" value="0.21195652173913043" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/progressbar.xml" value="0.20652173913043478" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/layout/truyentranh_listview.xml" value="0.22192028985507245" />
+        <entry key="..\:/IT-HK3-2021/DoAnDiDong/MobileShop/app/src/main/res/menu/menu_cart.xml" value="0.2526041666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
